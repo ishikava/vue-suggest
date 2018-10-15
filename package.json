@@ -1,0 +1,30 @@
+{
+  "name": "vue--suggest",
+  "version": "1.0.0",
+  "description": "Simple web-API for getting Google suggestions",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack main.js script.js",
+    "watch": "webpack main.js script.js --watch"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.7",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-es2015": "^6.18.0",
+    "css-loader": "^0.25.0",
+    "es6-promise": "^4.2.5",
+    "lodash": "^4.17.11",
+    "pug": "^2.0.3",
+    "vue": "^1.0.27",
+    "vue-hot-reload-api": "^2.3.1",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.2",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.15.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
